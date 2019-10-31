@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d7da8b4c83bf6ca6b2d4df7ad58f3f1",
+    "revision": "7f5154fa52501baff4635ede82f8e5c7",
     "url": "/manateepi_frontend/index.html"
   },
   {
-    "revision": "063beb7bea65739eb69f",
+    "revision": "08e39f8b9e17733c2497",
     "url": "/manateepi_frontend/static/css/main.95515ff1.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/manateepi_frontend/static/js/2.7fec6a92.chunk.js"
   },
   {
-    "revision": "063beb7bea65739eb69f",
-    "url": "/manateepi_frontend/static/js/main.c2cf690a.chunk.js"
+    "revision": "08e39f8b9e17733c2497",
+    "url": "/manateepi_frontend/static/js/main.bb0e8806.chunk.js"
   },
   {
     "revision": "ae04e67c90e0fa3445a8",
