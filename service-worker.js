@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/manateepi_frontend/precache-manifest.7574dd6c46b05d031d0891252b7a52ac.js"
+  "/manateepi_frontend/precache-manifest.af52cc5e6f80b52617d8ad01166465f0.js"
 );
 
 self.addEventListener('message', (event) => {
