@@ -27,14 +27,14 @@ export default class App extends Component {
   }
 
   readSessions = ()=>{
-    axios.get("http://localhost:8080/auth/readsessions",{withCredentials:true}).then(res=>{
+    axios.get("https://manateepi.herokuapp.com/auth/readsessions",{withCredentials:true}).then(res=>{
       console.log(res.data)
       this.setState({loggedInUser:res.data.user})
     })
   }
   
   getAllManatees = ()=>{
-    axios.get("http://localhost:8080/manatee",{withCredentials:true}).then(res=>{
+    axios.get("https://manateepi.herokuapp.com/manatee",{withCredentials:true}).then(res=>{
       this.setState({
         manatees:res.data
       })
@@ -48,7 +48,7 @@ export default class App extends Component {
 
       event.preventDefault();
     }
-    axios.post("http://localhost:8080/auth/login",{name:this.state.name,password:this.state.password},{withCredentials:true}).then(res=>{
+    axios.post("https://manateepi.herokuapp.com/auth/login",{name:this.state.name,password:this.state.password},{withCredentials:true}).then(res=>{
       console.log(res.data,res.status)
       this.setState({
         name:"",
@@ -67,7 +67,7 @@ export default class App extends Component {
   }
   handleSignupFormSubmit = event=>{
     event.preventDefault();
-    axios.post("http://localhost:8080/auth/signup",{name:this.state.name,password:this.state.password},{withCredentials:true}).then(res=>{
+    axios.post("https://manateepi.herokuapp.com/auth/signup",{name:this.state.name,password:this.state.password},{withCredentials:true}).then(res=>{
       console.log(res.data,res.status)
       this.handleLoginFormSubmit();
     }).catch(err=>{
@@ -76,7 +76,7 @@ export default class App extends Component {
   }
   handleManateeCreate=event=>{
     event.preventDefault();
-    axios.post("http://localhost:8080/manatee",{manateeName:this.state.manateeName},{withCredentials:true}).then(res=>{
+    axios.post("https://manateepi.herokuapp.com/manatee",{manateeName:this.state.manateeName},{withCredentials:true}).then(res=>{
       this.setState({
         manateeName:""
       })
