@@ -12,8 +12,8 @@ export default class App extends Component {
     password:"",
     loggedInUser:"",
     manateeName:"",
-    url:"http://localhost:8080",
-    // url:"https://manateepi.herokuapp.com",
+    // url:"http://localhost:8080",
+    url:"https://manateepi.herokuapp.com",
     manatees:[]
   }
   componentDidMount(){
