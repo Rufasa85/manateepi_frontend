@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/manateepi_frontend/static/css/main.95515ff1.chunk.css",
+    "main.js": "/manateepi_frontend/static/js/main.d2a26dd9.chunk.js",
+    "main.js.map": "/manateepi_frontend/static/js/main.d2a26dd9.chunk.js.map",
+    "runtime-main.js": "/manateepi_frontend/static/js/runtime-main.1d00e0b3.js",
+    "runtime-main.js.map": "/manateepi_frontend/static/js/runtime-main.1d00e0b3.js.map",
+    "static/js/2.7fec6a92.chunk.js": "/manateepi_frontend/static/js/2.7fec6a92.chunk.js",
+    "static/js/2.7fec6a92.chunk.js.map": "/manateepi_frontend/static/js/2.7fec6a92.chunk.js.map",
+    "index.html": "/manateepi_frontend/index.html",
+    "precache-manifest.b1fdb3f136f441971b84a8c7d80929d9.js": "/manateepi_frontend/precache-manifest.b1fdb3f136f441971b84a8c7d80929d9.js",
+    "service-worker.js": "/manateepi_frontend/service-worker.js",
+    "static/css/main.95515ff1.chunk.css.map": "/manateepi_frontend/static/css/main.95515ff1.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d00e0b3.js",
+    "static/js/2.7fec6a92.chunk.js",
+    "static/css/main.95515ff1.chunk.css",
+    "static/js/main.d2a26dd9.chunk.js"
+  ]
+}
